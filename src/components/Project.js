@@ -5,6 +5,7 @@ import NoteTakerImg from '../assets/img/note-taker.png';
 import WeatherForecastImg from '../assets/img/weather-forecast.png';
 import WorkDaySchedulerImg from '../assets/img/work-day-scheduler.png';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+import { RxDotFilled } from 'react-icons/rx';
 
 const Project = () => {
   const projects = [
@@ -56,18 +57,40 @@ const Project = () => {
     setCurrentIndex(newIndex);
   };
 
+  const goToSlide = (projectIndex) => {
+    setCurrentIndex(projectIndex);
+  };
+
   return (
     <div className='max-w-[1400px] h-[780px] w-full m-auto py-28 px-4 relative group'>
-      <img
-        className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
-        src={projects[currectIndex].image}
-        alt={projects.description}
-      />
+      <a
+        href={projects[currectIndex].url}
+        target='_blank'
+        rel='noreferrer'
+        className='cursor-pointer'
+      >
+        <img
+          className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
+          src={projects[currectIndex].image}
+          alt={projects.description}
+        />
+      </a>
       <div className='hidden group-hover:block absolute top-[50%] -translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
       <div className='hidden group-hover:block absolute top-[50%] -translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactRight onClick={nextSlide} size={30} />
+      </div>
+      <div className='flex top-4 justify-center p-2'>
+        {projects.map((project, projectIndex) => (
+          <div
+            key={projectIndex}
+            onClick={() => goToSlide(projectIndex)}
+            className='cursor-pointer'
+          >
+            <RxDotFilled size={30} />
+          </div>
+        ))}
       </div>
     </div>
   );
