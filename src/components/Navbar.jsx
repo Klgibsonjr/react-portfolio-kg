@@ -54,7 +54,7 @@ const Navbar = () => {
         {/* Hamburger */}
         <div
           onClick={handleNavToggle}
-          className='cursor-pointer md:hidden z-10'
+          className='cursor-pointer md:hidden z-20'
         >
           {!navToggle ? <FaBars /> : <FaTimes />}
         </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
           className={
             !navToggle
               ? 'hidden'
-              : 'absolute top-0 left-0 w-full h-screen bg-slate-600 flex flex-col justify-center items-center'
+              : 'absolute top-0 left-0 w-full h-screen bg-slate-600 flex flex-col justify-center items-center z-10'
           }
         >
           <li className='py-6 text-4xl'>
