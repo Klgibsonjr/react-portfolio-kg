@@ -24,7 +24,7 @@ const ContactMe = () => {
   };
 
   return (
-    <form className='w-[50vh] md:w-[100vh] mx-auto mt-8'>
+    <form className='w-auto my-10 mx-10 md:w-[75vh] md:mx-auto '>
       <div className='mb-6'>
         <label
           htmlFor='name'

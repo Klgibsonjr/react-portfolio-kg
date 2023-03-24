@@ -62,7 +62,7 @@ const Project = () => {
   };
 
   return (
-    <div className='max-w-[1400px] h-[780px] w-full m-auto py-28 px-4 relative group'>
+    <div className='max-w-[1400px] h-auto w-full m-auto py-28 px-4  group'>
       <a
         href={projects[currectIndex].url}
         target='_blank'

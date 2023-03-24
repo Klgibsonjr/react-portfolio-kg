@@ -68,23 +68,23 @@ const Navbar = () => {
           }
         >
           <li className='py-6 text-4xl'>
-            <a href='/pages/AboutMe' className=''>
+            <a href='/about' className=''>
               About Me
             </a>
           </li>
           <li className='py-6 text-4xl'>
-            <a href='/pages/Portfolio' className=''>
+            <a href='/portfolio' className=''>
               Portfolio
             </a>
           </li>
 
           <li className='py-6 text-4xl'>
-            <a href='/pages/Resume' className=''>
+            <a href='/resume' className=''>
               Resume
             </a>
           </li>
           <li className='py-6 text-4xl'>
-            <a href='/pages/ContactMe' className=''>
+            <a href='/contact' className=''>
               Contact Me
             </a>
           </li>

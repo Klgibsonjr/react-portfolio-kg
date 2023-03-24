@@ -6,6 +6,7 @@ import AboutMe from './pages/AboutMe';
 import ContactMe from './pages/ContactMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <div className='bg-slate-200 h-[100vh]'>
         <Header />
         <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<AboutMe />} />
           <Route path='/contact' element={<ContactMe />} />
           <Route path='/portfolio' element={<Portfolio />} />
         </Routes>
