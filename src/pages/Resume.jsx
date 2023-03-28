@@ -43,35 +43,6 @@ const Resume = () => {
         </div>
       </div>
     </div>
-
-    // <div className='w-full h-screen bg-slate-400'>
-    //   <h1 className='text-4xl font-bold inline border-b-4 border-red-700 ml-8 sm:text-center'>
-    //     Resume
-    //   </h1>
-
-    //   <div>
-    //     <h1 className='text-4xl text-center py-8'>Proficiencies</h1>
-    //     <div className='flex flex-col justify-center items-center gap-8'>
-    //       <div>
-    //         <h2 className='text-2xl font-bold text-center'>Front-End</h2>
-    //         <li className='text-xl'>HTML</li>
-    //         <li className='text-xl'>JavaScript</li>
-    //         <li className='text-xl'>REACT</li>
-    //         <li className='text-xl'>Tailwind CSS</li>
-    //         <li className='text-xl'>jQuery</li>
-    //       </div>
-    //       <div>
-    //         <h2 className='text-2xl font-bold text-center'>Back-End</h2>
-    //         <li className='text-xl'>Node JS</li>
-    //         <li className='text-xl'>Express JS</li>
-    //         <li className='text-xl'>MongoDB</li>
-    //         <li className='text-xl'>GraphQL</li>
-    //         <li className='text-xl'>MySQL</li>
-    //         <li className='text-xl'>APIs</li>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 
