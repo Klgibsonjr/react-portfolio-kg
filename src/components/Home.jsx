@@ -16,12 +16,14 @@ const Home = () => {
           nemo dolorum iure!
         </p>
         <div>
-          <button className='border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-slate-800 hover:text-white group'>
-            View Work
-            <span className='group-hover:text-4xl'>
-              <HiArrowNarrowRight className='ml-3' />
-            </span>
-          </button>
+          <a href='/portfolio'>
+            <button className='border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-slate-800 hover:text-white group'>
+              View Work
+              <span className='group-hover:text-4xl'>
+                <HiArrowNarrowRight className='ml-3' />
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
