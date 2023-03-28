@@ -9,11 +9,10 @@ const Home = () => {
         <p className='text-red-700 text-xl font-bold'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold'>Ken Gibson</h1>
         <h2 className='text-2xl sm:text-5xl'>I'm a Full Stack Developer</h2>
-        <p className='text-xl sm:text-2xl py-4 max-w-[700px]'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas eos,
-          impedit unde, laborum amet doloremque deserunt quasi similique
-          molestias voluptatum incidunt distinctio magnam, alias esse harum enim
-          nemo dolorum iure!
+        <p className='text-lg sm:text-2xl py-4 max-w-[700px]'>
+          A full stack developer certified through the UCLA Extension Program.
+          Knowledgeable in Javascript, HTML, CSS, SQL,NoSQL as well as various
+          frameswork like React, NodeJS, ExpressJS, and Tailwind.
         </p>
         <div>
           <a href='/portfolio'>
