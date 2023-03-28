@@ -77,27 +77,32 @@ const Project = () => {
           alt={projects.description}
         />
       </a>
-      <a href={gitHubRepo} target='_blank' rel='noreferrer'>
-        <button className='absolute  border-2 border-slate-600 left-[45%] top-[90%] rounded-md text-2xl p-2 hover:bg-slate-600'>
-          Github
-        </button>
-      </a>
+      <div className='flex max-w-[1400px]'></div>
       <div className='hidden group-hover:block absolute top-[40%] -translate-y-[-40%] md:top-[50%] md:-translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer items-center'>
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
       <div className='hidden group-hover:block absolute top-[40%] -translate-y-[-40%] md:top-[50%] md:-translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
-      <div className='flex top-4 justify-center p-2'>
-        {projects.map((project, projectIndex) => (
-          <div
-            key={projectIndex}
-            onClick={() => goToSlide(projectIndex)}
-            className='cursor-pointer'
-          >
-            <RxDotFilled size={30} />
-          </div>
-        ))}
+      <div className='flex flex-col'>
+        <div className='flex justify-center p-2'>
+          {projects.map((project, projectIndex) => (
+            <div
+              key={projectIndex}
+              onClick={() => goToSlide(projectIndex)}
+              className='cursor-pointer'
+            >
+              <RxDotFilled size={30} />
+            </div>
+          ))}
+        </div>
+        <div className='max-w-[1400px] flex justify-center'>
+          <a href={gitHubRepo} target='_blank' rel='noreferrer'>
+            <button className='border-2 border-slate-600 mt-2 rounded-md text-2xl p-2 hover:bg-slate-600'>
+              View code here!
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
