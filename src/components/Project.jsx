@@ -64,7 +64,7 @@ const Project = () => {
   const gitHubRepo = projects[currectIndex].repo;
 
   return (
-    <div className='max-w-[1400px] h-auto w-full mx-auto py-28 px-4 relative group'>
+    <div className='max-w-[1000px] h-auto w-full mx-auto py-28 px-4 relative group'>
       <a
         href={projects[currectIndex].url}
         target='_blank'
