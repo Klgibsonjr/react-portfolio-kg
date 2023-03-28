@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumeKG from '../assets/img/Resume-kg23.docx';
 
 const Resume = () => {
   return (
@@ -34,7 +35,7 @@ const Resume = () => {
           </div>
         </div>
         <div className='mt-8 sm:mt-20 w-full text-center'>
-          <a href='./assests/resume.pdf' download>
+          <a href={ResumeKG} download>
             <button className='border-2 border-slate-300 rounded-md hover:bg-slate-800 hover:text-white p-2 group'>
               Download my Resume
             </button>
