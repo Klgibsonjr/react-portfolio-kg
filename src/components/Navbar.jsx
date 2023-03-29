@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);
@@ -14,39 +15,63 @@ const Navbar = () => {
         </a>
 
         <div className='hidden w-full md:block md:w-auto' id='navbar-default'>
-          <ul className='flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-slate-500 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
+          <ul className='flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-slate-500 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
             <li>
-              <a
-                href='/about'
-                className='block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white'
+              <NavLink
+                to='/about'
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
+                    : isActive
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700 md:border-b-2 md:text-red-700 md:border-red-700 md:p-0 dark:text-white'
+                    : ''
+                }
               >
                 About Me
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
-                href='/portfolio'
-                className='block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+              <NavLink
+                to='/portfolio'
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
+                    : isActive
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700 md:border-b-2 md:text-red-700 md:border-red-700 md:p-0 dark:text-white'
+                    : ''
+                }
               >
                 Portfolio
-              </a>
+              </NavLink>
             </li>
 
             <li>
-              <a
-                href='/resume'
-                className='block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+              <NavLink
+                to='/resume'
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
+                    : isActive
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700 md:border-b-2 md:text-red-700 md:border-red-700 md:p-0 dark:text-white'
+                    : ''
+                }
               >
                 Resume
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
-                href='/contact'
-                className='block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+              <NavLink
+                to='/contact'
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
+                    : isActive
+                    ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700 md:border-b-2 md:text-red-700 md:border-red-700 md:p-0 dark:text-white'
+                    : ''
+                }
               >
                 Contact Me
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
