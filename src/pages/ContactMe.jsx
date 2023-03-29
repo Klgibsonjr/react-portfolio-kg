@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
+import { validateEmail } from '../utils/helpers';
 
 const ContactMe = () => {
   const [nameInput, setNameInput] = useState('');
   const [emailInput, setEmailInput] = useState('');
   const [messageInput, setMessageInput] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handlInputChange = (e) => {
     const { name, value } = e.target;
 
-    return name === 'name'
+    name === 'name'
       ? setNameInput(value)
       : name === 'email'
       ? setEmailInput(value)
@@ -17,6 +19,11 @@ const ContactMe = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+
+    if (!validateEmail(emailInput)) {
+      setErrorMessage('Please enter a valid input');
+      return;
+    }
 
     setNameInput('');
     setEmailInput('');
@@ -42,6 +49,7 @@ const ContactMe = () => {
           required
         />
       </div>
+
       <div className='mb-6'>
         <label
           htmlFor='email'
@@ -62,7 +70,6 @@ const ContactMe = () => {
       <div className='flex items-start mb-6'>
         <div className='flex items-center h-5'></div>
       </div>
-
       <label
         htmlFor='message'
         className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
@@ -77,7 +84,6 @@ const ContactMe = () => {
         className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
         placeholder='Write your thoughts here...'
       ></textarea>
-
       <button
         type='submit'
         onClick={handleFormSubmit}
