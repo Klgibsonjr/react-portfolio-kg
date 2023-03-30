@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Klgibsonjr/react-portfolio-kg/static/css/main.360a5e47.css",
+    "main.js": "/Klgibsonjr/react-portfolio-kg/static/js/main.778e6423.js",
+    "static/media/pantry-pal.png": "/Klgibsonjr/react-portfolio-kg/static/media/pantry-pal.072b307b48a5b6a5fd04.png",
+    "static/media/team-profile-generator.png": "/Klgibsonjr/react-portfolio-kg/static/media/team-profile-generator.2864e781596d47b7a1a3.png",
+    "static/media/employee-tracker.png": "/Klgibsonjr/react-portfolio-kg/static/media/employee-tracker.fcf0c529e89dfa99d1c6.png",
+    "static/media/weather-forecast.png": "/Klgibsonjr/react-portfolio-kg/static/media/weather-forecast.1740e197cd82ae0a7c57.png",
+    "static/media/portfolio_pic.jpg": "/Klgibsonjr/react-portfolio-kg/static/media/portfolio_pic.25749518cff60f59c01d.jpg",
+    "static/media/work-day-scheduler.png": "/Klgibsonjr/react-portfolio-kg/static/media/work-day-scheduler.6ed59f4f01901669b775.png",
+    "static/media/note-taker.png": "/Klgibsonjr/react-portfolio-kg/static/media/note-taker.ac2a2e9a961e611cb9ee.png",
+    "static/media/Resume-kg23.docx": "/Klgibsonjr/react-portfolio-kg/static/media/Resume-kg23.969fe02aa992ff281355.docx",
+    "index.html": "/Klgibsonjr/react-portfolio-kg/index.html",
+    "main.360a5e47.css.map": "/Klgibsonjr/react-portfolio-kg/static/css/main.360a5e47.css.map",
+    "main.778e6423.js.map": "/Klgibsonjr/react-portfolio-kg/static/js/main.778e6423.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.360a5e47.css",
+    "static/js/main.778e6423.js"
+  ]
+}
