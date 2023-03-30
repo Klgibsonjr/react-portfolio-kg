@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio-kg/about/static/css/main.360a5e47.css",
-    "main.js": "/react-portfolio-kg/about/static/js/main.eb08f98f.js",
-    "static/media/pantry-pal.png": "/react-portfolio-kg/about/static/media/pantry-pal.072b307b48a5b6a5fd04.png",
-    "static/media/team-profile-generator.png": "/react-portfolio-kg/about/static/media/team-profile-generator.2864e781596d47b7a1a3.png",
-    "static/media/employee-tracker.png": "/react-portfolio-kg/about/static/media/employee-tracker.fcf0c529e89dfa99d1c6.png",
-    "static/media/weather-forecast.png": "/react-portfolio-kg/about/static/media/weather-forecast.1740e197cd82ae0a7c57.png",
-    "static/media/portfolio_pic.jpg": "/react-portfolio-kg/about/static/media/portfolio_pic.25749518cff60f59c01d.jpg",
-    "static/media/work-day-scheduler.png": "/react-portfolio-kg/about/static/media/work-day-scheduler.6ed59f4f01901669b775.png",
-    "static/media/note-taker.png": "/react-portfolio-kg/about/static/media/note-taker.ac2a2e9a961e611cb9ee.png",
-    "static/media/Resume-kg23.docx": "/react-portfolio-kg/about/static/media/Resume-kg23.969fe02aa992ff281355.docx",
-    "index.html": "/react-portfolio-kg/about/index.html",
-    "main.360a5e47.css.map": "/react-portfolio-kg/about/static/css/main.360a5e47.css.map",
-    "main.eb08f98f.js.map": "/react-portfolio-kg/about/static/js/main.eb08f98f.js.map"
+    "main.css": "/react-portfolio-kg/static/css/main.360a5e47.css",
+    "main.js": "/react-portfolio-kg/static/js/main.5cfc3233.js",
+    "static/media/pantry-pal.png": "/react-portfolio-kg/static/media/pantry-pal.072b307b48a5b6a5fd04.png",
+    "static/media/team-profile-generator.png": "/react-portfolio-kg/static/media/team-profile-generator.2864e781596d47b7a1a3.png",
+    "static/media/employee-tracker.png": "/react-portfolio-kg/static/media/employee-tracker.fcf0c529e89dfa99d1c6.png",
+    "static/media/weather-forecast.png": "/react-portfolio-kg/static/media/weather-forecast.1740e197cd82ae0a7c57.png",
+    "static/media/portfolio_pic.jpg": "/react-portfolio-kg/static/media/portfolio_pic.25749518cff60f59c01d.jpg",
+    "static/media/work-day-scheduler.png": "/react-portfolio-kg/static/media/work-day-scheduler.6ed59f4f01901669b775.png",
+    "static/media/note-taker.png": "/react-portfolio-kg/static/media/note-taker.ac2a2e9a961e611cb9ee.png",
+    "static/media/Resume-kg23.docx": "/react-portfolio-kg/static/media/Resume-kg23.969fe02aa992ff281355.docx",
+    "index.html": "/react-portfolio-kg/index.html",
+    "main.360a5e47.css.map": "/react-portfolio-kg/static/css/main.360a5e47.css.map",
+    "main.5cfc3233.js.map": "/react-portfolio-kg/static/js/main.5cfc3233.js.map"
   },
   "entrypoints": [
     "static/css/main.360a5e47.css",
-    "static/js/main.eb08f98f.js"
+    "static/js/main.5cfc3233.js"
   ]
 }
