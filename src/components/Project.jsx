@@ -4,6 +4,7 @@ import EmployeeTrackerImg from '../assets/img/employee-tracker.png';
 import NoteTakerImg from '../assets/img/note-taker.png';
 import WeatherForecastImg from '../assets/img/weather-forecast.png';
 import WorkDaySchedulerImg from '../assets/img/work-day-scheduler.png';
+import TeamProfileGenerator from '../assets/img/team-profile-generator.png';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -44,6 +45,13 @@ const Project = () => {
       image: WorkDaySchedulerImg,
       description: 'Work Day Scheduler',
     },
+    {
+      title: 'Team Profile Generator',
+      url: 'https://github.com/Klgibsonjr/Team-Profile-Generator-nodejs',
+      repo: 'https://github.com/Klgibsonjr/Team-Profile-Generator-nodejs',
+      image: TeamProfileGenerator,
+      description: 'Team Profile Generator',
+    },
   ];
   const [currectIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
@@ -77,7 +85,7 @@ const Project = () => {
         className='cursor-pointer'
       >
         <img
-          className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
+          className='w-full rounded-2xl bg-center bg-cover duration-500'
           src={projects[currectIndex].image}
           alt={projects.description}
         />
