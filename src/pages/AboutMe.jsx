@@ -26,14 +26,15 @@ const AboutMe = () => {
               <p>Hi. My name is Ken, nice to meet you!</p>
             </div>
             <div>
-              <p className='text-2xl'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Excepturi, consectetur soluta praesentium fugiat accusantium
-                perspiciatis reiciendis tempora quod non quae eos sequi nobis
-                similique ex quidem, error dicta sunt laborum? Suscipit fugit
-                iure consequatur eveniet placeat numquam aspernatur facere
-                labore possimus saepe est nisi natus, voluptatum illo in illum
-                aut.
+              <p className='text-md sm:text-2xl'>
+                I've recently discovered a passion for web/software development
+                and am currently a full stack development student at the UCLA
+                Extension Program. My background has been in customer service
+                with an emphasis in retail where I've worked for the past 25
+                years. Over the last few moments I've a multitude of software
+                languages, frameworks, libraries and concepts such as; HTML,
+                Javascript, ExpressJS, NodeJS, MongoDB and newly found
+                passionate for React and Tailwind!
               </p>
             </div>
           </div>
