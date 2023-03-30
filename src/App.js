@@ -14,11 +14,11 @@ function App() {
       <div className='bg-slate-200 h-[100vh]'>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<AboutMe />} />
-          <Route path='/contact' element={<ContactMe />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/resume' element={<Resume />} />
+          <Route path='/react-portfolio-kg' element={<Home />} />
+          <Route path='/react-portfolio-kg/about' element={<AboutMe />} />
+          <Route path='/react-portfolio-kg/contact' element={<ContactMe />} />
+          <Route path='/react-portfolio-kg/portfolio' element={<Portfolio />} />
+          <Route path='/react-portfolio-kg/resume' element={<Resume />} />
         </Routes>
         <Footer />
       </div>

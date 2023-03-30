@@ -15,7 +15,7 @@ const Home = () => {
           frameswork like React, NodeJS, ExpressJS, and Tailwind.
         </p>
         <div>
-          <a href='/about'>
+          <a href='/react-portfolio-kg/about'>
             <button className='border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-slate-800 hover:text-white group'>
               Learn more about me!
               <span className='group-hover:text-4xl'>

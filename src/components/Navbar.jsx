@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className='bg-slate-500 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900'>
       <div className='container flex flex-wrap items-center justify-between mx-auto'>
-        <a href='/' className='flex items-center'>
+        <a href='/react-portfolio-kg/' className='flex items-center'>
           <span className='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
             Ken Gibson
           </span>
@@ -32,7 +32,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to='/portfolio'
+                to='/react-portfolio-kg/portfolio'
                 className={({ isActive, isPending }) =>
                   isPending
                     ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
@@ -47,7 +47,7 @@ const Navbar = () => {
 
             <li>
               <NavLink
-                to='/resume'
+                to='/react-portfolio-kg/resume'
                 className={({ isActive, isPending }) =>
                   isPending
                     ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
@@ -61,7 +61,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to='/contact'
+                to='/react-portfolio-kg/contact'
                 className={({ isActive, isPending }) =>
                   isPending
                     ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
@@ -93,23 +93,23 @@ const Navbar = () => {
           }
         >
           <li className='py-6 text-4xl'>
-            <a href='/about' className=''>
+            <a href='/react-portfolio-kg/about' className=''>
               About Me
             </a>
           </li>
           <li className='py-6 text-4xl'>
-            <a href='/portfolio' className=''>
+            <a href='/react-portfolio-kg/portfolio' className=''>
               Portfolio
             </a>
           </li>
 
           <li className='py-6 text-4xl'>
-            <a href='/resume' className=''>
+            <a href='/react-portfolio-kg/resume' className=''>
               Resume
             </a>
           </li>
           <li className='py-6 text-4xl'>
-            <a href='/contact' className=''>
+            <a href='/react-portfolio-kg/contact' className=''>
               Contact Me
             </a>
           </li>
