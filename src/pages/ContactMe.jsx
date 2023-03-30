@@ -22,7 +22,7 @@ const ContactMe = () => {
     if (Object.keys(formErrors).length === 0 && formSubmit) {
       console.log(formValues);
     }
-  }, [formErrors]);
+  }, [formErrors, formSubmit, formValues]);
 
   const validate = (values) => {
     const errors = {};
