@@ -18,7 +18,7 @@ const Navbar = () => {
           <ul className='flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-slate-500 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
             <li>
               <NavLink
-                to='/about'
+                to='/react-portfolio-kg/about'
                 className={({ isActive, isPending }) =>
                   isPending
                     ? 'block py-2 pl-3 pr-4 md:hover:text-blue-700  md:p-0 dark:text-white'
