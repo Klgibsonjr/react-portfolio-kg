@@ -17,6 +17,7 @@
 - [License](#license)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
+- [Demostration](#demonstration)
 - [Contact](#contact)
 
 ---
@@ -61,6 +62,14 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
+---
+
+## Demonstration
+
+Here is a link to my deployed portfolio, [React Portfolio](https://klgibsonjr.github.io/react-portfolio-kg/ 'React Portfolio')
+
+![React Portfolio](./src/assets/img/portfolio_screenshot.png)
+
 ## Contact
 
-[Github Repo](https://github.com/Klgibsonjr/react-portfolio-kg)
+[Github Repo](https://github.com/Klgibsonjr/react-portfolio-kg 'Github Repo')
