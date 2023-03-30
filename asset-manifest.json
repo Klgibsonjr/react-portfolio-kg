@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-kg/static/css/main.360a5e47.css",
-    "main.js": "/react-portfolio-kg/static/js/main.b053cf39.js",
+    "main.js": "/react-portfolio-kg/static/js/main.912e6d6e.js",
     "static/media/pantry-pal.png": "/react-portfolio-kg/static/media/pantry-pal.072b307b48a5b6a5fd04.png",
     "static/media/team-profile-generator.png": "/react-portfolio-kg/static/media/team-profile-generator.2864e781596d47b7a1a3.png",
     "static/media/employee-tracker.png": "/react-portfolio-kg/static/media/employee-tracker.fcf0c529e89dfa99d1c6.png",
@@ -12,10 +12,10 @@
     "static/media/Resume-kg23.docx": "/react-portfolio-kg/static/media/Resume-kg23.969fe02aa992ff281355.docx",
     "index.html": "/react-portfolio-kg/index.html",
     "main.360a5e47.css.map": "/react-portfolio-kg/static/css/main.360a5e47.css.map",
-    "main.b053cf39.js.map": "/react-portfolio-kg/static/js/main.b053cf39.js.map"
+    "main.912e6d6e.js.map": "/react-portfolio-kg/static/js/main.912e6d6e.js.map"
   },
   "entrypoints": [
     "static/css/main.360a5e47.css",
-    "static/js/main.b053cf39.js"
+    "static/js/main.912e6d6e.js"
   ]
 }
