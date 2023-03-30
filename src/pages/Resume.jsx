@@ -15,7 +15,9 @@ const Resume = () => {
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-left text-4xl'>
-            <h2 className='text-3xl font-bold text-center'>Front-End</h2>
+            <h2 className='text-2xl font-bold text-center'>
+              Front-End Proficiencies
+            </h2>
             <li className='text-xl'>HTML</li>
             <li className='text-xl'>JavaScript</li>
             <li className='text-xl'>REACT</li>
@@ -24,7 +26,9 @@ const Resume = () => {
           </div>
           <div>
             <div>
-              <h2 className='text-3xl font-bold text-center'>Back-End</h2>
+              <h2 className='text-2xl font-bold text-center'>
+                Back-End Proficiencies
+              </h2>
               <li className='text-xl'>Node JS</li>
               <li className='text-xl'>Express JS</li>
               <li className='text-xl'>MongoDB</li>
