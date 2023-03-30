@@ -14,7 +14,7 @@ function App() {
       <div className='bg-slate-200 h-[100vh]'>
         <Header />
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutMe />} />
           <Route path='/contact' element={<ContactMe />} />
           <Route path='/portfolio' element={<Portfolio />} />
