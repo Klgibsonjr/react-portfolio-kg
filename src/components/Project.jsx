@@ -5,6 +5,7 @@ import NoteTakerImg from '../assets/img/note-taker.png';
 import WeatherForecastImg from '../assets/img/weather-forecast.png';
 import WorkDaySchedulerImg from '../assets/img/work-day-scheduler.png';
 import TeamProfileGenerator from '../assets/img/team-profile-generator.png';
+import JavaJunkiesCafe from '../assets/img/java_junkies.png';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -52,6 +53,13 @@ const Project = () => {
       image: TeamProfileGenerator,
       description: 'Team Profile Generator',
     },
+    {
+      title: 'Java Junkies Virtual Cafe',
+      url: 'https://java-junkies-virtual-cafe.herokuapp.com/',
+      repo: 'https://github.com/Klgibsonjr/java-junkies-virtual-cafe',
+      image: JavaJunkiesCafe,
+      description: 'Java Junkies Virtual Cafe',
+    },
   ];
   const [currectIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
@@ -72,7 +80,7 @@ const Project = () => {
   const gitHubRepo = projects[currectIndex].repo;
 
   return (
-    <div className='max-w-[1000px] h-auto w-full mx-auto py-28 px-4 relative group'>
+    <div className='max-w-[1000px] h-auto w-full mx-auto py-28 px-8 relative group'>
       <div className='flex justify-center mb-6'>
         <div className='max-w-[1400px] text-2xl md:text-4xl'>
           {projects[currectIndex].title}
